@@ -1,5 +1,6 @@
 ﻿# Visual Studio files
 .vs/
+AppiumTestPJ/
 *.suo
 *.user
 *.cache
@@ -7,26 +8,17 @@
 *.futdcache.*
 *.DocumentLayout.json
 
-# Build artifacts
 bin/
 obj/
 artifacts/
 
-# Test output
-TestResults/
-*.testlog
-*.trx
-*.coverage
-*.nunit.*
-*.VisualState.xml
 
-# Project evaluation cache
+
 ProjectEvaluation/
 FileContentIndex/
 DesignTimeBuild/
 *.v7.bin
 
-# Reports / Logs (nếu có sau này)
 Reports/
 Logs/
 Screenshots/
@@ -34,12 +26,11 @@ Screenshots/
 *.log
 *.html
 
-# Rider / Resharper
 .idea/
 _ReSharper*/
 *.DotSettings.user
 
-# Others
+
 *.local.json
 *.launchSettings.json
 *.dbmdl
