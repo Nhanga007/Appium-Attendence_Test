@@ -25,7 +25,7 @@ namespace AppiumTestExample.Tests
                 Console.WriteLine("✓ Đã nhấn nút 'Thêm buổi học'!");
 
                 Thread.Sleep(1000); 
-
+                 
                 userManagementPage.ClickElementBySelector("new UiSelector().className(\"android.view.View\").instance(8)");
                 Console.WriteLine("✓ Đã chọn thời gian!");
                 userManagementPage.ClickElementByDescription("OK");

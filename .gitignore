@@ -14,23 +14,6 @@ artifacts/
 
 
 
-ProjectEvaluation/
-FileContentIndex/
-DesignTimeBuild/
-*.v7.bin
-
-Reports/
-Logs/
-Screenshots/
-*.png
-*.log
-*.html
-
-.idea/
-_ReSharper*/
-*.DotSettings.user
 
 
-*.local.json
-*.launchSettings.json
-*.dbmdl
+

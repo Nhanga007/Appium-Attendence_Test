@@ -27,7 +27,8 @@ namespace AppiumTestExample.Tests
             options.DeviceName = "emulator-5554";
             options.AutomationName = "UiAutomator2";
             options.App = @"D:\HDH_HK2\Attendance_flutter\build\app\outputs\flutter-apk\app-debug.apk";
-            options.AddAdditionalAppiumOption("noReset", true);
+
+            options.AddAdditionalAppiumOption("noReset", false);
             options.AddAdditionalAppiumOption("fullReset", false);
 
             driver = new AndroidDriver(new Uri("http://127.0.0.1:4723/"), options, TimeSpan.FromSeconds(60));
